@@ -1,0 +1,24 @@
+{
+  "name": "microfrontends.details",
+  "version": "1.0.0",
+  "files": [
+    "MovieDetails.Web/moviedetails.d.ts",
+    "MovieDetails.Web/moviedetails.tsx"
+  ],
+  "typings": "MovieDetails.Web/moviedetails.d.ts",
+  "main": "SearchWeb/ClientApp/searchmodule.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilliamBZA/Microfrontends.moviedetails.git"
+  },
+  "author": "WilliamBZA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WilliamBZA/Microfrontends.moviedetails/issues"
+  },
+  "homepage": "https://github.com/WilliamBZA/Microfrontends.moviedetails#readme",
+  "description": ""
+}
