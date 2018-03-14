@@ -20,7 +20,7 @@ namespace MovieDetailsFromJson
 
         public async Task<MovieDetails> LoadMovieFromJson(string movieId)
         {
-            return JsonConvert.DeserializeObject<MovieDetails>(await File.ReadAllTextAsync(movieId + ".json"));
+            return JsonConvert.DeserializeObject<MovieDetails>(await File.ReadAllTextAsync("Data/" + movieId.Replace(":", string.Empty).Replace("'", string.Empty) + ".json"));
         }
 
         public async Task PopulateData(dynamic viewModel, RouteData routeData, HttpRequest request)

@@ -6,7 +6,7 @@ import { MovieDetails }from '../../moviedetails';
 export default class Home extends React.Component<RouteComponentProps<{}>, {}> {
     public render() {
         return <div>
-            <MovieDetails />
+            <MovieDetails movieId="Inxeba" />
         </div>;
     }
 }
