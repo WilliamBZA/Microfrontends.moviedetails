@@ -13,7 +13,7 @@ export default class Home extends React.Component<RouteComponentProps<{}>, any> 
             }
         };
 
-        fetch('api/Data/?moviedetails=Inxeba')
+        fetch('api/Data/?moviedetails=Black Panther')
             .then(response => response.json())
             .then(data => {
                 this.setState({

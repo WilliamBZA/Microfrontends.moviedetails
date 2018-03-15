@@ -7,11 +7,12 @@ export class MovieDetails extends React.Component<any, any> {
             return <div><i>Loading...</i></div>;
         }
 
-        return <div>
-            <h2>{this.props.movieDetails.title}</h2>
+        return <div className="movie-details">
+            <h2 className="title">{this.props.movieDetails.title}</h2>
 
-            <em>{this.props.movieDetails.summary}</em><br/>
-            <img src={this.props.movieDetails.posterUrl} />
+            <div className="synopsis">{this.props.movieDetails.summary}</div>
+
+            <img src={this.props.movieDetails.posterUrl} className="poster" />
         </div>;
     }
 }
